@@ -1,3 +1,65 @@
+#install scipy
+import os
+
+try:
+    result = os.system('python -m pip install scipy')
+    if result == 0:
+        print("SciPy installed successfully.")
+    else:
+        print("There was an error installing SciPy.")
+except Exception as e:
+    print(f"An error occurred: {e}")
+#install pandas
+import os
+
+os.system('python -m pip install pandas')
+#install matplotlib
+import os
+
+try:
+    result = os.system('python -m pip install matplotlib')
+    if result == 0:
+        print("Matplotlib installed successfully.")
+    else:
+        print("There was an error installing Matplotlib.")
+except Exception as e:
+    print(f"An error occurred: {e}")
+#install networkx
+import os
+
+try:
+    result = os.system('python -m pip install networkx')
+    if result == 0:
+        print("NetworkX installed successfully.")
+    else:
+        print("There was an error installing NetworkX.")
+except Exception as e:
+    print(f"An error occurred: {e}")
+#install numpy
+import os
+
+try:
+    result = os.system('python -m pip install numpy')
+    if result == 0:
+        print("NumPy installed successfully.")
+    else:
+        print("There was an error installing NumPy.")
+except Exception as e:
+    print(f"An error occurred: {e}")
+#install cv2
+import os
+
+try:
+    result = os.system('python -m pip install opencv-python')
+    if result == 0:
+        print("OpenCV (cv2) installed successfully.")
+    else:
+        print("There was an error installing OpenCV (cv2).")
+except Exception as e:
+    print(f"An error occurred: {e}")
+
+
+
 #producer-consumer using shared memory
 
 import multiprocessing
